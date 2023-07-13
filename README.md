@@ -32,11 +32,7 @@ We used html library to clear unnecessary html snippets in the email body for ea
   'Actor': 'Daniel Fullarton',
   'Timestamp': 'Mon, 03 Apr, 00:01'}
 
-<<<<<<< HEAD
-As clearly seen even though we get the correct actors and timestamps, we couldn't get the event and correct objects at the output.
-=======
 As clearly seen that even though we get the correct actor, we couldn't get the event and correct objects.
->>>>>>> 2dabf80fda1d42118668c1cb2215ffaa6cf7cc39
 
   ### part_x2.ipynb:
   We used html library to clear unnecessary html snippets in the email body for ease of preprocessing. By using nltk library we removed unnecessary characters, symbols, stopwords, and punctuations. Then we tokenized the lemmatized words. We added the most common events as predefined variables to our model, but this time it covers more events than the previous version. In the functions, extract_event, extract_object, and extract_actor we are extracting the information to create OCELs, and we create our OCELs by using the ocel_entries function. Some examples from the output we get;
@@ -148,9 +144,6 @@ We create ocel_entries to store the events with their features by detecting them
   'Object': 'change',
   'Actor': 'asf github',
   'Timestamp': 'Thu, 13 Apr, 15:21'}
-<<<<<<< HEAD
 
 
 We used pm4py to convert our results to OCEL standard. We are required a date type in the dataframe in order to change our results to OCEL standard. In our dataset year information is not given inside the timestamp column, but all the emails are sent in 2017, so we changed the date manually. We change the 'Object' column into 'ocel:oid' because it is also required for the conversion.In our case, we do not have different type for the objects. So we give all the objects same type 'ocel:oid'. In the end we export our result in the "ocel_file.csv" file as a standart CSV file and "ocel_objects.csv" and "ocel_events.csv" files as OCEL file format.
-=======
->>>>>>> 2dabf80fda1d42118668c1cb2215ffaa6cf7cc39
