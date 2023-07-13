@@ -31,7 +31,7 @@ We used html library to clear unnecessary html snippets in the email body for ea
   'Actor': 'Daniel Fullarton',
   'Timestamp': 'Mon, 03 Apr, 00:01'}
 
-As clearyly seen that even though we get the correct actor, we couldn't get the event and correct objects.
+As clearly seen that even though we get the correct actor, we couldn't get the event and correct objects.
 
   ### part_x2.ipynb:
   We used html library to clear unnecessary html snippets in the email body for ease of preprocessing. By using nltk library we removed unnecessary characters, symbols, stopwords and punctuations. Then we tokenized the lemmatized words. We added most common events as predefined variable to our model, but this time it covers more event than previous version. In the functions extract_event, extract_object, extract_actor we are extracting the informations to create OCELs, and we create our OCELs by usind ocel_entries function. Some examples from the output we get;
