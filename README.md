@@ -5,6 +5,7 @@ We worked on two different email datasets to create Object-Centric Event Logs.
 ## Datasets
 
 Hillary Clinton's email dataset: https://www.kaggle.com/datasets/kaggle/hillary-clinton-emails
+
 JIRA email dataset
 
 ## Methods used for every Version 
